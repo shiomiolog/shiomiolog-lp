@@ -1,0 +1,3 @@
+# .prettierignore
+# エラーを多発させる特定のファイルを自動整形の対象外にする
+app/app.vue

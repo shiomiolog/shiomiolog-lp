@@ -12,9 +12,12 @@
           class="w-24 h-24 md:w-48 lg:w-64 md:h-48 lg:h-64 bg-white rounded-full shadow-2xl border-4 border-slate-50 flex items-center justify-center overflow-hidden pointer-events-auto transition-all duration-500 hover:scale-105 active:scale-95">
           <img :src="isMeowMode ? '/avatar_cat.png' : '/avatar.webp'" alt="Mio" class="w-full h-full object-cover" />
         </button>
-        <h1 class="text-lg md:text-2xl font-black tracking-[0.2em] uppercase">
-          {{ isMeowMode ? `Nyanne Mio` : `SHIONE Mio` }}
-        </h1>
+        <div
+          class="mt-6 px-8 py-3 bg-slate-950/90 text-[#00CCFF] border border-[#00CCFF]/30 rounded-md shadow-[0_0_15px_rgba(0,204,255,0.2)] backdrop-blur-md pointer-events-auto">
+          <h1 class="text-lg md:text-2xl font-black tracking-[0.2em] uppercase">
+            {{ isMeowMode ? `Nyanne Mio` : `SHIONE Mio` }}
+          </h1>
+        </div>
       </div>
     </div>
 
